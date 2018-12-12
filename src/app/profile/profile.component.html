@@ -1,0 +1,28 @@
+
+<br />
+<div class="row">
+<div class="col-md-6">
+<div class="form-group">
+<input class="form-control" [(ngModel)]="sqareroot" />
+</div>
+</div>
+<div class="col-md-6">
+<p>{{ sqareroot | valueSquareroot }}</p>
+</div>
+</div>
+<br />
+<div class="row">
+<div class="col-md-3">
+<div class="form-group">
+<input class="form-control" [(ngModel)]="powvala" />
+</div>
+</div>
+<div class="col-md-3">
+<div class="form-group">
+<input class="form-control" [(ngModel)]="powvalb" />
+</div>
+</div>
+<div class="col-md-6">
+<p>{{ powvala | valuePower:powvalb }}</p>
+</div>
+</div>
